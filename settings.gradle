@@ -1,0 +1,3 @@
+include ':launcherSdk'
+include ':app'
+rootProject.name = "TessereactTaskOne"

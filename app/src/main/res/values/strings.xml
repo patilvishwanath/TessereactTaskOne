@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LauncherApp</string>
+    <string name="search_apps">Search apps</string>
+    <string name="wallpaper">WallPaper</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="app_info">App Info</string>
+    <string name="delete_package_intent">Delete this package</string>
+</resources>

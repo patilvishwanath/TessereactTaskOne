@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vp.launchersdk">
+
+    <application>
+        <receiver android:name="com.vp.tessereacttaskone.receiver.AppBroadCast">
+            <intent-filter android:priority="100">
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+
+        </receiver>
+    </application>
+
+</manifest>
